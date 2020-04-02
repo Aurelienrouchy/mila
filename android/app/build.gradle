@@ -189,6 +189,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-localize')
     addUnimodulesDependencies()
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion

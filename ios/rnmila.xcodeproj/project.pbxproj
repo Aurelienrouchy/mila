@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* rnmilaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnmilaTests.m */; };
-		00F2CD74FA9B44B7A57C2785 /* coachellamedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF2069C1BD3C410187D0A997 /* coachellamedium.otf */; };
 		0D543813243171970002B17C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D543812243171970002B17C /* GoogleService-Info.plist */; };
+		0DC000FE243534E900876074 /* MADECoachella-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC000F8243534E900876074 /* MADECoachella-Black.otf */; };
+		0DC000FF243534E900876074 /* MADECoachella-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC000F9243534E900876074 /* MADECoachella-Bold.otf */; };
+		0DC00100243534E900876074 /* MADECoachella-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC000FA243534E900876074 /* MADECoachella-Light.otf */; };
+		0DC00101243534E900876074 /* MADECoachella-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC000FB243534E900876074 /* MADECoachella-Medium.otf */; };
+		0DC00102243534E900876074 /* MADECoachella-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC000FC243534E900876074 /* MADECoachella-Thin.otf */; };
+		0DC00103243534E900876074 /* MADECoachella.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC000FD243534E900876074 /* MADECoachella.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -21,12 +26,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* rnmilaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnmilaTests.m */; };
 		31FD13912922DF0DBE475BA2 /* libPods-rnmila-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A2F5CD67935E77F57C026 /* libPods-rnmila-tvOSTests.a */; };
 		353BCE3E1B8610E2D5220C3B /* libPods-rnmila-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEE7C1F3A2199BEA9402199 /* libPods-rnmila-tvOS.a */; };
-		4D0B80FCD5D94E638395F863 /* coachellaregular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A85186FF8FC04AD6A3D748A4 /* coachellaregular.otf */; };
 		B1CD132648AC70B97C8F49FF /* libPods-rnmila.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4271EE28FAA4D8776779570C /* libPods-rnmila.a */; };
-		E130FBD634D64301A22FB6A4 /* coachellablack.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCAC19859F604DCCB480C43D /* coachellablack.otf */; };
-		E1DEB55F2A3E48399A622966 /* coachellabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55D771A8D713455AA519F571 /* coachellabold.otf */; };
-		EA3E27EB3746483CB9DAD687 /* coachellathin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38E8DC3C19394A809F890392 /* coachellathin.otf */; };
-		F3EC88D1E548448BA917E0F8 /* coachellalight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDD22E90BB8C43909F7299AB /* coachellalight.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +52,12 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* rnmilaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnmilaTests.m; sourceTree = "<group>"; };
 		0D543812243171970002B17C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DC000F8243534E900876074 /* MADECoachella-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MADECoachella-Black.otf"; path = "../assets/fonts/MADECoachella-Black.otf"; sourceTree = "<group>"; };
+		0DC000F9243534E900876074 /* MADECoachella-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MADECoachella-Bold.otf"; path = "../assets/fonts/MADECoachella-Bold.otf"; sourceTree = "<group>"; };
+		0DC000FA243534E900876074 /* MADECoachella-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MADECoachella-Light.otf"; path = "../assets/fonts/MADECoachella-Light.otf"; sourceTree = "<group>"; };
+		0DC000FB243534E900876074 /* MADECoachella-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MADECoachella-Medium.otf"; path = "../assets/fonts/MADECoachella-Medium.otf"; sourceTree = "<group>"; };
+		0DC000FC243534E900876074 /* MADECoachella-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MADECoachella-Thin.otf"; path = "../assets/fonts/MADECoachella-Thin.otf"; sourceTree = "<group>"; };
+		0DC000FD243534E900876074 /* MADECoachella.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MADECoachella.otf; path = ../assets/fonts/MADECoachella.otf; sourceTree = "<group>"; };
 		0DEE7C1F3A2199BEA9402199 /* libPods-rnmila-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnmila-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		101B72B17AD817030C935104 /* libPods-rnmila-rnmilaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnmila-rnmilaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* rnmila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnmila.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,21 +70,15 @@
 		2BC1AAB98AA9C0D6F269E2AE /* Pods-rnmila-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rnmila-tvOSTests/Pods-rnmila-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* rnmila-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rnmila-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* rnmila-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rnmila-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38E8DC3C19394A809F890392 /* coachellathin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = coachellathin.otf; path = ../assets/fonts/coachellathin.otf; sourceTree = "<group>"; };
 		4271EE28FAA4D8776779570C /* libPods-rnmila.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnmila.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51906D35CB4295955EA0FFAD /* Pods-rnmila-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rnmila-tvOS/Pods-rnmila-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		55D771A8D713455AA519F571 /* coachellabold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = coachellabold.otf; path = ../assets/fonts/coachellabold.otf; sourceTree = "<group>"; };
 		5E7177ADAF4E1FFF28251500 /* Pods-rnmila-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rnmila-tvOSTests/Pods-rnmila-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		647C03F95368C36A4D7301DC /* Pods-rnmila-rnmilaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila-rnmilaTests.debug.xcconfig"; path = "Target Support Files/Pods-rnmila-rnmilaTests/Pods-rnmila-rnmilaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		913A2F5CD67935E77F57C026 /* libPods-rnmila-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnmila-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9670ACDEB3693874350FD16A /* Pods-rnmila.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila.debug.xcconfig"; path = "Target Support Files/Pods-rnmila/Pods-rnmila.debug.xcconfig"; sourceTree = "<group>"; };
 		970F37E477A797039A755D7C /* Pods-rnmila-rnmilaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila-rnmilaTests.release.xcconfig"; path = "Target Support Files/Pods-rnmila-rnmilaTests/Pods-rnmila-rnmilaTests.release.xcconfig"; sourceTree = "<group>"; };
-		A85186FF8FC04AD6A3D748A4 /* coachellaregular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = coachellaregular.otf; path = ../assets/fonts/coachellaregular.otf; sourceTree = "<group>"; };
-		BCAC19859F604DCCB480C43D /* coachellablack.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = coachellablack.otf; path = ../assets/fonts/coachellablack.otf; sourceTree = "<group>"; };
 		C6B0AD2B329E42007D49E364 /* Pods-rnmila-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rnmila-tvOS/Pods-rnmila-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D40158D8BD3BC2BF835564B0 /* Pods-rnmila.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmila.release.xcconfig"; path = "Target Support Files/Pods-rnmila/Pods-rnmila.release.xcconfig"; sourceTree = "<group>"; };
-		DDD22E90BB8C43909F7299AB /* coachellalight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = coachellalight.otf; path = ../assets/fonts/coachellalight.otf; sourceTree = "<group>"; };
-		DF2069C1BD3C410187D0A997 /* coachellamedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = coachellamedium.otf; path = ../assets/fonts/coachellamedium.otf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -216,12 +216,12 @@
 		FFAF339C94864855B100E504 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BCAC19859F604DCCB480C43D /* coachellablack.otf */,
-				55D771A8D713455AA519F571 /* coachellabold.otf */,
-				DDD22E90BB8C43909F7299AB /* coachellalight.otf */,
-				DF2069C1BD3C410187D0A997 /* coachellamedium.otf */,
-				A85186FF8FC04AD6A3D748A4 /* coachellaregular.otf */,
-				38E8DC3C19394A809F890392 /* coachellathin.otf */,
+				0DC000F8243534E900876074 /* MADECoachella-Black.otf */,
+				0DC000F9243534E900876074 /* MADECoachella-Bold.otf */,
+				0DC000FA243534E900876074 /* MADECoachella-Light.otf */,
+				0DC000FB243534E900876074 /* MADECoachella-Medium.otf */,
+				0DC000FC243534E900876074 /* MADECoachella-Thin.otf */,
+				0DC000FD243534E900876074 /* MADECoachella.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -368,15 +368,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC00101243534E900876074 /* MADECoachella-Medium.otf in Resources */,
+				0DC000FF243534E900876074 /* MADECoachella-Bold.otf in Resources */,
+				0DC000FE243534E900876074 /* MADECoachella-Black.otf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0DC00103243534E900876074 /* MADECoachella.otf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				0DC00102243534E900876074 /* MADECoachella-Thin.otf in Resources */,
+				0DC00100243534E900876074 /* MADECoachella-Light.otf in Resources */,
 				0D543813243171970002B17C /* GoogleService-Info.plist in Resources */,
-				E130FBD634D64301A22FB6A4 /* coachellablack.otf in Resources */,
-				E1DEB55F2A3E48399A622966 /* coachellabold.otf in Resources */,
-				F3EC88D1E548448BA917E0F8 /* coachellalight.otf in Resources */,
-				00F2CD74FA9B44B7A57C2785 /* coachellamedium.otf in Resources */,
-				4D0B80FCD5D94E638395F863 /* coachellaregular.otf in Resources */,
-				EA3E27EB3746483CB9DAD687 /* coachellathin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

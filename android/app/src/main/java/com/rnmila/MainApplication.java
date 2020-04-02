@@ -38,7 +38,7 @@ public class MainApplication extends Application implements ReactApplication {
             new ModuleRegistryAdapter(mModuleRegistryProvider)
           );
           packages.addAll(unimodules);
-
+          packages.add(new RNLocalizePackage());
           return packages;
         }
 

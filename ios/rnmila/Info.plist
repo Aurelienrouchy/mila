@@ -20,6 +20,19 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string></string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.236649452066-gfcvja0qpfeqeufe10mrqp6et1m6qnat</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -38,7 +51,18 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MADECoachella.otf</string>
+		<string>MADECoachella-Light.otf</string>
+		<string>MADECoachella-Black.otf</string>
+		<string>MADECoachella-Bold.otf</string>
+		<string>MADECoachella-Medium.otf</string>
+		<string>MADECoachella-Thin.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -53,14 +77,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>coachellablack.otf</string>
-		<string>coachellabold.otf</string>
-		<string>coachellalight.otf</string>
-		<string>coachellamedium.otf</string>
-		<string>coachellaregular.otf</string>
-		<string>coachellathin.otf</string>
-	</array>
 </dict>
 </plist>

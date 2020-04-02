@@ -5,13 +5,11 @@ const ProgressBotttom = ({num, nav, next, visible = true}) => {
     const [fadeAnim] = useState(new Animated.Value(0));
 
     useEffect(() => {
-        Animated.timing(
-        fadeAnim,
-        {
+        Animated.timing( fadeAnim, {
             toValue: visible ? 1 : 0,
             duration: 300,
-        }
-        ).start();
+            useNativeDriver: true,
+        }).start();
     }, [visible])
     
     return (
@@ -25,8 +23,8 @@ const ProgressBotttom = ({num, nav, next, visible = true}) => {
             <View style={style.dots}>
                 { Array(7).fill(0).map((numero, index) => (<View key={index} style={index + 1 == num ? style.current_dot : style.dot}></View>))}
             </View>
+
             <TouchableOpacity onPress={() => next()}>
-                
                 <Animated.View style={{opacity: fadeAnim, ...style.button, ...style.next}}>
                     <Image style={style.arrow} source={require('./../../../assets/img/arrow-right.png')} />
                 </Animated.View>
@@ -42,7 +40,7 @@ const style = StyleSheet.create({
         width: '100%',
         flexDirection: 'row',
         justifyContent: 'space-between',
-        marginBottom: 70
+        marginBottom: 20
     },
     dots: {
         width: '60%',

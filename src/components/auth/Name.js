@@ -7,13 +7,11 @@ import {AuthContext} from './../../providers/auth.js';
 const {height, width} = Dimensions.get('screen');
 
 const Name = (props) => {
-    const route = useRoute();
     const navigation = useNavigation();
     const context = useContext(AuthContext);
 
-    const [fname, lname] = route.params.displayName.split(' ');
-    const [firstname, setFirstname] = useState(fname);
-    const [lastname, setLastname] = useState(lname);
+    const [firstname, setFirstname] = useState('');
+    const [lastname, setLastname] = useState('');
     const [info, setInfo] = useState('');
     
     const next = () => {
@@ -38,9 +36,7 @@ const Name = (props) => {
                     placeholderTextColor="#D2D2D2"
                     onChangeText={text => setFirstname(text)}
                     value={firstname}/>
-                <Text style={style.info}>{
-                    info
-                }</Text>
+                <Text style={style.info}>{info}</Text>
                 <TextInput
                     style={style.input}
                     placeholder="Last name"
@@ -65,7 +61,7 @@ const style = StyleSheet.create({
     },
     title: {
         fontSize: 24,
-        fontFamily: 'coachellaregular'
+        fontFamily: 'MADECoachella'
     },
     info: { 
         fontSize: 12, 

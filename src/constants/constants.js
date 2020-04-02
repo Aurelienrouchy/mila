@@ -9,12 +9,11 @@ export const FIREBASE_CONFIG = {
 	messagingSenderId: "236649452066",
 	appId: "1:236649452066:web:9581fda23b6cd515a9707b"
 };
-
 export const FB_API_KEY = '713063225765638';
+
 export const TOKEN_KEY = 'token';
 export const USER_KEY = 'user';
 export const keys = [TOKEN_KEY, USER_KEY]; 
-
 
 export const HEADER_HEIGHT = 100; 
 export const STATUS_BAR_HEIGHT = getStatusBarHeight();
@@ -48,7 +47,6 @@ export const profiles_next = [{
 	desc: 'PROAAAUT',
 	gender: 'F',
 }];
-
 export const profiles = [{
 	id: 1,
 	picture: require('./../../assets/photos/1.jpeg'),

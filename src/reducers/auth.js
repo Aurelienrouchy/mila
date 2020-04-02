@@ -2,10 +2,20 @@ export const LOGGED_IN = `LOGGED_IN`;
 export const LOGGED_OUT = `LOGGED_OUT`;
 export const MERGE_USER = `MERGE_USER`;
 
+export const device = {
+    uid: undefined,
+    brand: undefined,
+    deviceType: undefined,
+    systemName: undefined,
+    deviceId: undefined,
+    systemVersion: undefined
+};
+
 export const  initialState = {
     isLoggedIn: false,
     user: {
-        guid: '',
+        uuid: '',
+        phone: '',
         picture: [],
         age: null,
         fname: '',
@@ -14,7 +24,10 @@ export const  initialState = {
         gender: null,
         prefer: null,
         provider: {},
-        device: {},
+        premium: false,
+        language: '',
+        region: '',
+        device,
         localisation : {
             latitude: null,
             longitude: null

@@ -8,20 +8,20 @@ const AuthContext = React.createContext(AuthProvider);
 function AuthProvider(props) {
     const [state, dispatch] = useReducer(reducer, initialState || {});
 
-    // // Get Auth state
-    // const getAuthState = async () => {
-    //     try {
-    //         //GET DATA
-    //         let data = await getStorageData();
+    // Get Auth state
+    const getAuthState = async () => {
+        try {
+            //GET DATA
+            let data = await getStorageUser();
 
-    //         if (data) await handleLogin(data);
-    //         else await handleLogout(data);
+            if (data) await handleLogin(data);
+            else await handleLogout(data);
 
-    //         return data;
-    //     } catch (error) {
-    //         throw new Error(error);
-    //     }
-    // };
+            return data;
+        } catch (error) {
+            throw new Error(error);
+        }
+    };
 
     const updateUserData = (data, set = false) => {
         const {user} = set ? initialState : state;

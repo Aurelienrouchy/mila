@@ -49,14 +49,11 @@ export const signWithGoogle = () => {
 
 export const signWithMail = () => ({});
 
-export const signWithPhone = async (phone, code) => {
-    console.log(phone, code)
-    const confirmation = await auth().signInWithPhoneNumber(`${phone}`);
-
+export const confirmPhone = async phone => await auth().signInWithPhoneNumber(phone);
+export const confirmCode = async phone => {
     try {
-        console.log(await confirmation.confirm(code))
-        await confirmation.confirm(code); // User entered code
-        // Successful login - onAuthStateChanged is triggered
+        await confirmation.confirm(code);
+        console.error('success');
       } catch (e) {
         console.error(e); // Invalid code
       }

@@ -1,32 +1,35 @@
 import React, {useContext, useState, useEffect} from 'react';
 import { NavigationContainer } from '@react-navigation/native';
+import * as RNLocalize from "react-native-localize";
+import i18n from 'i18n-js';
+import { Text, View } from 'react-native';
+import {Font} from 'react-native-unimodules';
+
 import Auth from './auth.js';
 import Home from './home.js';
 import {FIREBASE_CONFIG} from './../constants/constants'
 import {AuthContext} from './../providers/auth.js';
-import { Text } from 'react-native';
-import {Font} from 'react-native-unimodules';
+
 
 const App = () => {
-	const [isUserExist, setIsUserExist] = useState(null);
+	const [hasUser, setHasUser] = useState(null);
+	const [loading, setLoading] = useState(true);
 	const [fontLoaded, setFontLoaded] = useState(true);
 	const auth = useContext(AuthContext);
 
     useEffect(() => {
-		// loadFonts();
-        initialize();
+        init();
 	}, []);
-	
-	// async function loadFonts() {
-	// 	await Font.loadAsync({
-	// 		'coachellaregular': require('./../../assets/fonts/coachellaregular.otf'),
-	// 	});
-	// 	setFontLoaded(true);
-	// }
 
-    async function initialize() {
+	const setI18n = () => {
+		i18n.locale = RNLocalize.getLocales()[0].countryCode;
+		i18n.fallbacks = true;
+	};
+
+    async function init() {
+		setI18n();
         try {
-            const { user } = await auth.getAuthState();
+            const { user } = await auth.getStorageUser();
 			
             if (user) {
                 //check if username exist
@@ -36,23 +39,32 @@ const App = () => {
 					// TODO check in database
 					// If true setIsUserExist(true);
 					// else setIsUserExist(false);
-				} else setIsUserExist(false);
+				} else {
+					setHasUser(false);
+					setLoading(false);
+				}
 
-            } else setIsUserExist(false);
+            } else {
+				setHasUser(false);
+				setLoading(false);
+			}
         } catch (e) {
-            setIsUserExist(false);
+			setHasUser(false);
+			setLoading(false);
         }
 	};
 
-	if (!fontLoaded) {
+	if(loading) {
 		return (
-			<Text>Loading...</Text>
-		); 
+			<View>
+				<Text></Text>
+			</View>
+		);
 	}
 
 	return (
 		<NavigationContainer>
-			{(isUserExist !== null) && isUserExist ? (
+			{(hasUser !== null) && hasUser ? (
 				Auth()
 			) : (
 				Auth()
