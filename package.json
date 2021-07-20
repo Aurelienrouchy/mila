@@ -19,7 +19,7 @@
     "expo-font": "^8.1.0",
     "i18n-js": "^3.5.1",
     "react": "16.11.0",
-    "react-native": "0.62.0",
+    "react-native": "0.62.3",
     "react-native-country-picker-modal": "^1.10.0",
     "react-native-device-info": "^5.5.3",
     "react-native-gesture-handler": "^1.6.1",
